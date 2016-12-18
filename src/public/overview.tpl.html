@@ -1,0 +1,6 @@
+<p>
+  <input type="text" ng-model="q">
+</p>
+<ul>
+  <li ng-repeat="member in members | filter: q track by $index">{{member}}</li>
+</ul>

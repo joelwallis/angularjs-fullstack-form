@@ -1,0 +1,28 @@
+{
+  "name": "cadastro",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Joel Wallis Jucá <joelwallis@gmail.com> (https://github.com/joelwallis)",
+  "main": "src/server.js",
+  "standard": {
+    "globals": [
+      "angular"
+    ]
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "src/build.sh"
+  },
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-route": "^1.6.0",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2"
+  }
+}
